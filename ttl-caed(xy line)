@@ -31,7 +31,7 @@ t.penup()
 t.goto(80,0)
 t.pendown()
 t.left(60)
-t.goto(130,80)
+t.fd(100)
 
 
 
