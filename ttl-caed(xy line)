@@ -1,0 +1,38 @@
+import turtle
+t = turtle.Turtle()
+
+t.penup()
+t.goto(-300,0)
+t.pendown()
+
+t.fd(600)
+
+t.penup()
+t.goto(-220,-80)
+t.pendown()
+
+#square
+for i in range(4):
+    t.fd(100)
+    t.right(90)
+
+t.penup()
+t.fd(300)
+t.pendown()
+
+#rectangle
+for j in range(2):
+	t.fd(50)
+	t.right(90)
+	t.fd(100)
+	t.right(90)
+
+t.penup()
+t.goto(80,0)
+t.pendown()
+t.left(60)
+t.goto(130,80)
+
+
+
+turtle.done()
